@@ -1,66 +1,65 @@
 <template>
     <!-- Start -->
-    <div class="mastering-metal h-screen flex flex-col items-center justify-center text-white text-center px-0 md:px-5 lg:px-64">
-      <h1 class="mb-4 text-4xl md:text-5xl font-extrabold shadow-text font-display" style="
-      color: #FFF;
-      text-align: center;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      font-family: 'Red Hat Display', sans-serif;
-      font-size: 73.881px;
-      font-style: normal;
-      font-weight: 900;
-      line-height: normal;
-  ">
-      Mastering Metal, Crafting Quality
-  </h1>
-      <p class="text-sm md:text-base justify-center text-center mb-10">
-          At Fair Dinkum Fabricators, we breathe life into metal, transforming it into durable and precise creations. Elevate your projects with our unparalleled craftsmanship and cutting-edge technology, ensuring excellence in every piece we fabricate.
-      </p>
-      <button class="bg-orange-500 hover:bg-orange-600 text-white py-3 px-6 md:px-8 rounded transition duration-300 ease-in-out">
-          Explore Services
-      </button>
-    </div>
+  <div class="mastering-metal h-screen flex flex-col items-center justify-center text-white text-center px-0 md:px-5 lg:px-64">
+    <h1 class="mb-4 text-3xl md:text-5xl lg:text-4xl font-extrabold shadow-text font-display" style="
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 73.881px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+          ">
+        Mastering Metal, Crafting Quality
+    </h1>
+    <p class="text-sm md:text-base justify-center text-center mb-10">
+        At Fair Dinkum Fabricators, we breathe life into metal, transforming it into durable and precise creations. Elevate your projects with our unparalleled craftsmanship and cutting-edge technology, ensuring excellence in every piece we fabricate.
+    </p>
+    <button class="bg-orange-500 hover:bg-orange-600 text-white py-3 px-6 md:px-8 rounded transition duration-300 ease-in-out">
+        Explore Services
+    </button>
+  </div>
 
     <!-- row1 -->
-    <div class="p-4 lg:p-10 grid grid-cols-1 lg:grid-cols-2">
-      <div class="p-4 lg:p-10 flex flex-col lg:text-left">
-        <h3 class="text-orange-500 text-lg font-semibold justify-center text-center lg:hidden">Executive Summary</h3>
-        <h1 class="text-xl lg:text-3xl font-bold mb-2 lg:mb-4 justify-center text-center lg:hidden">Experience and Innovation in Metal Fabrication</h1>
+  <div class="p-4 lg:p-10 grid grid-cols-1 lg:grid-cols-2">
+    <div class="p-4 lg:p-10 flex flex-col lg:text-left">
+      <h3 class="text-orange-500 text-lg font-semibold justify-center lg:hidden">Executive Summary</h3>
+      <h1 class="text-xl lg:text-3xl font-bold mb-2 lg:mb-4 justify-center lg:hidden">Experience and Innovation in Metal Fabrication</h1>
 
-        <div class="relative p-4 lg:p-10 flex justify-center items-center lg:hidden">
-          <div class="w-full h-auto border-white border-4 rounded-lg overflow-hidden ml-auto">
-            <img src="~/assets/executive-summary-4x4.png" alt="Image 1" class="w-full sm:w-3/4 md:w-2/3 lg:w-3/4 h-auto object-cover mx-auto">
-            <img src="~/assets/executive-summary2.png" alt="Image 2" class="w-1/3 h-auto border-white border-4 absolute top-20 lg:top-1/4 left-0 lg:left-0 transform translate-x-0 translate-y-1/5 z-20 ">
-          </div>
-        </div>
-        <h3 class="text-orange-500 text-lg font-semibold hidden lg:block">Executive Summary</h3>
-        <h1 class="text-xl lg:text-3xl font-bold mb-2 lg:mb-4 hidden lg:block">Experience and Innovation in Metal Fabrication</h1>
-        <div>
-          <p class="text-sm lg:text-base text-gray-700">
-          FAIRDINKUM FABRICATORS INC (Formally HMR Fabricators) was established in Angono in 1985 initially to refurbish and fabricate shelving and Pallet Racking for HMR Philippines. In 2011, the operations were expanded to provide services to the Construction, Geological, Exploration, and Mining industries, leading to the development of Fairdinkum Fabricators.
-        </p>
-        </div>
-      <div class="mt-4 justify-center text-center">
-        <button class="bg-orange-500 hover:bg-orange-600 text-white py-2 px-6 rounded transition duration-300 ">Read More</button>
-      </div>
-    </div>
-      <div class="relative p-4 lg:p-10 flex justify-center items-center hidden lg:block">
-        
+      <div class="relative p-4 lg:p-10 flex justify-center items-center lg:hidden">
         <div class="w-full h-auto border-white border-4 rounded-lg overflow-hidden ml-auto">
-          <img src="~/assets/executive-summary-4x4.png" alt="Image 1" class="w-full sm:w-3/4 md:w-2/3 lg:w-3/4 h-auto object-cover mx-auto">
+          <img src="~/assets/executive-summary-4x4.png" alt="Image 1" class="w-3/4 md:w-2/3 lg:w-3/4 h-auto object-cover mx-auto">
           <img src="~/assets/executive-summary2.png" alt="Image 2" class="w-1/3 h-auto border-white border-4 absolute top-20 lg:top-1/4 left-0 lg:left-0 transform translate-x-0 translate-y-1/5 z-20 ">
         </div>
       </div>
+      <h3 class="text-orange-500 text-lg font-semibold hidden lg:block">Executive Summary</h3>
+      <h1 class="text-xl lg:text-3xl font-bold mb-2 lg:mb-4 hidden lg:block">Experience and Innovation in Metal Fabrication</h1>
+      <div>
+        <p class="text-sm lg:text-base text-gray-700">
+        FAIRDINKUM FABRICATORS INC (Formally HMR Fabricators) was established in Angono in 1985 initially to refurbish and fabricate shelving and Pallet Racking for HMR Philippines. In 2011, the operations were expanded to provide services to the Construction, Geological, Exploration, and Mining industries, leading to the development of Fairdinkum Fabricators.
+      </p>
+      </div>
+    <div class="mt-4 justify-center text-center">
+      <button class="bg-orange-500 hover:bg-orange-600 text-white py-2 px-6 rounded transition duration-300 ">Read More</button>
     </div>
+  </div>
+  <div class="relative p-4 lg:p-10 flex justify-center items-center hidden lg:block">
+    <div class="w-full h-auto border-white border-4 rounded-lg overflow-hidden ml-auto">
+      <img src="~/assets/executive-summary-4x4.png" alt="Image 1" class="w-3/4 md:w-2/3 lg:w-3/4 h-auto object-cover mx-auto">
+      <img src="~/assets/executive-summary2.png" alt="Image 2" class="w-1/3 h-auto border-white border-4 absolute top-20 lg:top-1/4 left-0 lg:left-0 transform translate-x-0 translate-y-1/5 z-20 ">
+    </div>
+  </div>
+</div>
 
     <!-- row2 -->
-    <div class="bg-gray-200">
-  <div class="p-4 lg:p-10 grid grid-cols-1 lg:grid-cols-2 ">
-    <div class="flex flex-col justify-center items-center mb-4 lg:mb-0">
-      <h3 class="text-orange-500 text-lg font-semibold text-center lg:text-left lg:hidden">Operational Staff</h3>
-      <h1 class="text-xl lg:text-3xl font-bold mb-4 text-center lg:text-left lg:hidden">Behind the Metal Mastery</h1>
-      <img src="~/assets/operational-staff.png" alt="Operational Staff" class="w-10vw h-auto object-cover">
-    </div>
+  <div class="bg-gray-200">
+    <div class="p-4 lg:p-10 grid grid-cols-1 lg:grid-cols-2 ">
+      <div class="flex flex-col justify-center  mb-4 lg:mb-0">
+        <h3 class="text-orange-500 text-lg font-semibold lg:text-left lg:hidden">Operational Staff</h3>
+        <h1 class="text-xl lg:text-3xl font-bold mb-4 lg:text-left lg:hidden">Behind the Metal Mastery</h1>
+        <img src="~/assets/operational-staff.png" alt="Operational Staff" class="w-3/4 md:w-2/3 lg:w-3/4 h-auto object-cover mx-auto">
+      </div>
         <div class="p-4 lg:p-10 flex flex-col justify-center">
           <h3 class="text-orange-500 text-lg font-semibold mb-2 text-center lg:text-left hidden lg:block">Operational Staff</h3>
           <h1 class="text-xl lg:text-3xl font-bold mb-4 text-center lg:text-left hidden lg:block">Behind the Metal Masteryr</h1>
@@ -94,64 +93,63 @@
           </div>
         </div>
       </div>
+    </div>   
+
+
+    <!-- row3 -->
+    <div class="our-affiliate-background text-center h-64">
+      <h1 class="our-affiliate-heading text-3xl text-white font-bold mb-4">Our Affiliation</h1>
+      <p class="our-affiliate-paragraph text-sm text-white text-gray-700 mb-4">Fairdinkum is affiliated to, and works in conjunction with:HMR Group, HMR Philippines, HMR EnvirocycleSDW Holdings (Construction Division)</p>
+      <div class="our-affiliate-grid grid grid-cols-3 gap-10 relative">
+        <img src="~/assets/our-affiliation.png" alt="Project 1" class="our-affiliate-image mt-5 mx-10">
+        <img src="~/assets/our-affiliation2.png" alt="Project 2" class="our-affiliate-image">
+        <img src="~/assets/our-affiliation3.png" alt="Project 3" class="our-affiliate-image">
+      </div>
     </div>
     
 
-
-  <!-- row3 -->
-  <div class="our-affiliate-background text-center h-64">
-    <h1 class="our-affiliate-heading text-3xl text-white font-bold mb-4">Our Affiliation</h1>
-    <p class="our-affiliate-paragraph text-sm text-white text-gray-700 mb-4">Fairdinkum is affiliated to, and works in conjunction with:HMR Group, HMR Philippines, HMR EnvirocycleSDW Holdings (Construction Division)</p>
-    <div class="our-affiliate-grid grid grid-cols-3 gap-10 relative">
-      <img src="~/assets/our-affiliation.png" alt="Project 1" class="our-affiliate-image mt-5 mx-10">
-      <img src="~/assets/our-affiliation2.png" alt="Project 2" class="our-affiliate-image">
-      <img src="~/assets/our-affiliation3.png" alt="Project 3" class="our-affiliate-image">
-    </div>
-  </div>
-  
-
- <!-- row4 -->
-<div class="p-4 lg:p-10 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:m-10">
-  <div class="p-4 lg:p-10 flex flex-col lg:text-left">
-    <h3 class="text-orange-500 text-lg font-semibold justify-center text-center">Growth & Drive</h3>
-    <h1 class="text-xl lg:text-3xl font-bold mb-4 justify-center text-center">Sculpting Growth: Our Precision, Your Advantage.</h1>
-    <!-- mobile -->
-    <div class="relative p-4 lg:p-10 flex justify-center items-center lg:hidden">
-      <div class="w-full h-auto border-white border-4 rounded-lg overflow-hidden ml-auto">
-        <img src="~/assets/growth-drive.png" alt="Image 1" class="w-full sm:w-3/4 md:w-2/3 lg:w-3/4 xl:w-full h-auto object-cover mx-auto">
-        <img src="~/assets/growth-drive2.png" alt="Image 2" class="w-1/3 h-auto border-white border-4 absolute top-0 lg:top-20 left-0 lg:left-0 transform translate-x-0 translate-y-1/5 z-20">
-        <img src="~/assets/growth-drive3.png" alt="Image 3" class="w-1/3 h-auto border-white border-4 absolute bottom-0 lg:bottom-20 right-0 lg:right-0 transform translate-x-0 -translate-y-1/5 z-20">
+  <!-- row4 -->
+  <div class="px-10 grid grid-cols-1 lg:grid-cols-2 gap-4 my-10 ">
+    <div class="flex flex-col mb-4 lg:mb-0 justify-center">
+      <h3 class="text-orange-500 text-lg font-semibold mb-2">Growth & Drive</h3>
+      <h1 class="text-xl lg:text-3xl font-bold mb-4">Sculpting Growth: Our Precision, Your Advantage.</h1>
+      <p class="text-sm lg:text-base text-gray-700 mb-4 lg:text-left">
+        Our Vision is to grow the team and equipment as the work requirements dictate. Fairdinkum currently has a small team of fabricators, each with a particular skillset in a varying range of Fabrication nuances, i.e. Heavy Construction, Heavy Equipment, Stainless Steel, Oil & Gas, and general Roof Trusses.
+      </p>
+      <!-- mobile -->
+      <div class="relative p-4 lg:p-10 flex justify-center items-center lg:hidden">
+        <div class="w-full h-auto border-white border-4 rounded-lg overflow-hidden ml-auto">
+          <img src="~/assets/growth-drive.png" alt="Image 1" class="w-full sm:w-3/4 md:w-2/3 lg:w-3/4 xl:w-full h-auto object-cover mx-auto">
+          <img src="~/assets/growth-drive2.png" alt="Image 2" class="w-1/3 h-auto border-white border-4 absolute top-0 lg:top-20 left-0 lg:left-0 transform translate-x-0 translate-y-1/5 z-20">
+          <img src="~/assets/growth-drive3.png" alt="Image 3" class="w-1/3 h-auto border-white border-4 absolute bottom-0 lg:bottom-20 right-0 lg:right-0 transform translate-x-0 -translate-y-1/5 z-20">
+        </div>
       </div>
-    </div>
 
-    <p class="our-vision-paragraph text-sm lg:text-base mb-4">
-      Our Vision is to grow the team and equipment as the work requirements dictate. Fairdinkum currently has a small team of fabricators, each with a particular skillset in a varying range of Fabrication nuances, i.e. Heavy Construction, Heavy Equipment, Stainless Steel, Oil & Gas, and general Roof Trusses.
-    </p>
-    <p class="our-vision-paragraph text-sm lg:text-base mb-4">
-      Our team also consists of Painters, carpenters, electricians, plumbers, and cabinet makers. FDF endeavours to utilise these qualified personnel to train and introduce new experienced workers into the market.
-    </p>
-    <div class="justify-center text-center">
-      <button class="bg-orange-500 hover:bg-orange-600 text-white py-2 px-6 rounded transition duration-300">Read More</button>
+      <p class="text-sm lg:text-base text-gray-700 mb-4 lg:text-left">
+        Our team also consists of Painters, carpenters, electricians, plumbers, and cabinet makers. FDF endeavours to utilise these qualified personnel to train and introduce new experienced workers into the market.
+      </p>
+      <div class="mt-4 justify-center ">
+          <button class="bg-orange-500 hover:bg-orange-600 text-white py-2 px-6 rounded transition duration-300 ">Read More</button>
+        </div>
     </div>
-  </div>
-  <!-- Desktop -->
-    <div class="relative p-4 lg:p-10 flex justify-center items-center hidden lg:block">
-      <div class="w-full h-auto border-white border-4 rounded-lg overflow-hidden ml-auto">
-        <img src="~/assets/growth-drive.png" alt="Image 1" class="w-full sm:w-3/4 md:w-2/3 lg:w-3/4 xl:w-full h-auto object-cover mx-auto">
-        <img src="~/assets/growth-drive2.png" alt="Image 2" class="w-1/3 h-auto border-white border-4 absolute top-0 lg:top-20 left-0 lg:left-0 transform translate-x-0 translate-y-1/5 z-20">
-        <img src="~/assets/growth-drive3.png" alt="Image 3" class="w-1/3 h-auto border-white border-4 absolute bottom-0 lg:bottom-20 right-0 lg:right-0 transform translate-x-0 -translate-y-1/5 z-20">
+    <!-- Desktop -->
+      <div class="relative p-4 lg:p-10 flex">
+        <div class="w-full h-auto border-white border-4 rounded-lg overflow-hidden ml-auto">
+          <img src="~/assets/growth-drive.png" alt="Image 1" class="w-full sm:w-3/4 md:w-2/3 lg:w-3/4 xl:w-full h-auto object-cover mx-auto">
+          <img src="~/assets/growth-drive2.png" alt="Image 2" class="w-1/3 h-auto border-white border-4 absolute top-0 lg:top-20 left-0 lg:left-0 transform translate-x-0 translate-y-1/5 z-20">
+          <img src="~/assets/growth-drive3.png" alt="Image 3" class="w-1/3 h-auto border-white border-4 absolute bottom-0 lg:bottom-20 right-0 lg:right-0 transform translate-x-0 -translate-y-1/5 z-20">
+        </div>
       </div>
-    </div>
-</div>
+  </div>
 
-  
-<!-- slide row -->
-  <SLIDER />
-<!-- row5 -->
+    
+  <!-- slide row -->
+    <SLIDER />
+  <!-- row5 -->
 
   <div class="p-4 lg:p-10 grid grid-cols-1 lg:grid-cols-2 gap-4 m-4 lg:m-10">
-    <div class="flex flex-col justify-center items-center mb-4 lg:mb-0">
-      <h3 class="text-orange-500 text-lg font-semibold mb-2 text-center lg:text-left lg:hidden">Our Services</h3>
+    <div class="flex flex-col mb-4 lg:mb-0">
+      <h3 class="text-orange-500 text-lg font-semibold mb-2 lg:text-left lg:hidden">Our Services</h3>
       <h1 class="text-xl lg:text-3xl font-bold mb-4 lg:text-left lg:hidden">Excellence in Every Endeavor</h1>
         <img src="~/assets/our-services.png"  alt="Our Services" class="w-10vw h-auto object-cover">
     </div>

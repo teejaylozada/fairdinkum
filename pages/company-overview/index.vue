@@ -69,19 +69,12 @@
 
 
 <!-- Row4 -->
-<div class="bg-gray-800 text-white p-10 text-base flex flex-col growth-drive-background lg:h-96">
+<div class="bg-gray-800 text-white p-1 text-base flex flex-col growth-drive-background h-full lg:h-96">
     <div class="container mx-auto grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3">
-      <!-- Column 1: About Fairdinkum -->
       <div class="text-left bg-white text-black p-2 rounded">
-        <h1 class="our-affiliate-heading text-2xl font-bold mb-2">GROWTH & DRIVE</h1>
+        <h1 class="text-2xl font-bold mb-2">GROWTH & DRIVE</h1>
         <p class="mb-2">Our Vision is to grow the team and equipment as the work requirements dictate. Fairdinkum currently have a small team of fabricators, each with a particular skillset in a varying range of Fabrication nuances, i.e. Heavy Construction, Heavy Equipment, Stainless Steel, Oil & Gas and general Roof Trusses. Our team also consists of Painters, carpenters, electricians, plumbers and cabinet makers. FDF endeavours to utilise these qualified personnel to train and introduce new experienced workers into the market.</p>
       </div>
-
-
-        <!-- Column 2: FDF Services -->
-        <!-- Column 3: Website Links -->
-
-        <!-- Column 4: Address and Logo -->
       </div>
   </div>
 
