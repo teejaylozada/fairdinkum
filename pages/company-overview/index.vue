@@ -31,7 +31,7 @@
 </div>
 
 <!-- Row2 -->
-<div class="our-affiliate-background text-center h-64 my-5">
+<div class="our-affiliate-background text-center h-80 my-5">
     <h1 class="our-affiliate-heading text-3xl text-white font-bold mb-4">Our Affiliation</h1>
     <p class="our-affiliate-paragraph text-sm text-white text-gray-700 mb-4">Fairdinkum is affiliated to, and works in conjunction with:HMR Group, HMR Philippines, HMR EnvirocycleSDW Holdings (Construction Division)</p>
     <div class="our-affiliate-grid grid grid-cols-3 gap-10 relative">
@@ -43,7 +43,6 @@
 
 <!-- Row3 -->
   <div class="px-10 lg:p-10 grid grid-cols-1 lg:grid-cols-2 gap-4">
-
     <div class="relative p-4 lg:p-10 flex justify-center items-center hidden lg:block">
       <div class="w-full h-auto border-white border-4 rounded-lg overflow-hidden ml-auto">
         <img src="~/assets/company-overview.png" alt="Image 1" class="w-full sm:w-3/4 md:w-2/3 lg:w-3/4 h-auto object-cover mx-auto">
@@ -89,7 +88,7 @@
 
 
 .our-affiliate-background {
-  background: linear-gradient(90deg, rgba(139, 38, 12, 0.53) 1.8%, rgba(106, 0, 147, 0.53) 47.37%, rgba(1, 7, 11, 0.2) 98.42%, rgba(0, 7, 13, 0) 98.43%),url('~/assets/test.png');
+  background: linear-gradient(90deg, rgba(197, 72, 31, 0.842) 10%, rgba(47, 1, 255, 0) 90.37%, rgba(43, 0, 124, 0.2) 90.42%, rgba(0, 92, 172, 0) 10.43%),url('~/assets/our-affiliation-bg.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; /* Ensure the image covers the entire background area */

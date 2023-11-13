@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 
   mail: {
     message: {
-      to: "fortexd20@gmail.com",
+      to: "EmailAccountHere@gmail.com",
     },
     smtp: {
       host: "smtp.gmail.com",

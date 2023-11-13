@@ -50,7 +50,7 @@
         <div class="text-left">
           <h1 class="text-xl font-bold mb-4">About Fairdinkum</h1>
           <p class="text-gray-300 leading-loose">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, temporibus aliquam? Magni enim laudantium magnam, reiciendis expedita mollitia porro quam.
+            FAIRDINKUM FABRICATORS INC (Formally HMR Fabricators) was established in Angono in 1985 initally to refurbish and fabricate shelving and Pallet Racking for HMR Philippines. 
           </p>
         </div>
 
@@ -93,7 +93,7 @@
       </div>
 
       <div class="text-center">
-        <p>© 2023. All Rights Reserved. Designed by <span class="text-custom-orange font-semibold">HPAA</span></p>
+        <p>©2023. All Rights Reserved. Designed by <span class="text-custom-orange font-semibold">HPAA</span></p>
       </div>
     </footer>
   </div>
@@ -211,5 +211,11 @@ onUnmounted(() => {
   font-size: 16px; /* Slightly larger font size */
 }
 
+.text-custom-orange {
+    color: orange; /* or any other color you prefer */
+}
 
+.font-semibold {
+    font-weight: 600; /* or any other value for semi-bold font */
+}
 </style>
