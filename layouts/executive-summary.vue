@@ -11,10 +11,7 @@
         <ul class="flex space-x-4 text-sm">
           <li><NuxtLink to="/" class="nav-link text-blue-500 hover:text-green-500">Home</NuxtLink></li>
           <li><NuxtLink to="/executive-summary" class="nav-link text-blue-500 hover:text-green-500">Executive Summary</NuxtLink></li>
-          <li><span class="nav-text text-blue-500 hover:text-green-500">Company Overview</span></li>
-          <li><span class="nav-text text-blue-500 hover:text-green-500">Services</span></li>
-          <li><span class="nav-text text-blue-500 hover:text-green-500">Gallery</span></li>
-          <li><span class="nav-text text-blue-500 hover:text-green-500">Contact Us</span></li>
+
         </ul>
       </nav>
     </header>

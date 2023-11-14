@@ -1,11 +1,7 @@
 <template>
   <div class="bg-gray-100">
-    <div class="text-orange-500 p-4">
-      <div class="container mx-auto">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3867.500537091069!2d121.109457!3d14.2239983!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd62e3ce3bbf47%3A0xdff686c49486a9c!2sSilangan%20Industrial%20Park-Calamba!5e0!3m2!1sen!2sph!4v1697365276678!5m2!1sen!2sph" width="100%" height="400" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <h1 class="text-3xl lg:text-5xl font-bold text-center mt-5">Contact Us</h1>
-      </div>
-    </div>
+  <!-- Map -->
+    <OurMap />
 
     <div class="container mx-auto mb-5">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
@@ -66,12 +62,13 @@
       </div>
     </div>
   </div>
+
 </template>
 
 <script>
 import { toast } from 'vue3-toastify';
 import 'vue3-toastify/dist/index.css';
-
+import OurMap from "@/components/our-map.vue"
 export default {
   data() {
     return {

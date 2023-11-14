@@ -31,15 +31,7 @@
 </div>
 
 <!-- Row2 -->
-<div class="our-affiliate-background text-center h-80 my-5">
-    <h1 class="our-affiliate-heading text-3xl text-white font-bold mb-4">Our Affiliation</h1>
-    <p class="our-affiliate-paragraph text-sm text-white text-gray-700 mb-4">Fairdinkum is affiliated to, and works in conjunction with:HMR Group, HMR Philippines, HMR EnvirocycleSDW Holdings (Construction Division)</p>
-    <div class="our-affiliate-grid grid grid-cols-3 gap-10 relative">
-      <img src="~/assets/our-affiliation.png" alt="Project 1" class="our-affiliate-image mt-5 mx-10">
-      <img src="~/assets/our-affiliation2.png" alt="Project 2" class="our-affiliate-image">
-      <img src="~/assets/our-affiliation3.png" alt="Project 3" class="our-affiliate-image">
-    </div>
-  </div>
+<OurAffiliate />
 
 <!-- Row3 -->
   <div class="px-10 lg:p-10 grid grid-cols-1 lg:grid-cols-2 gap-4">
@@ -65,8 +57,6 @@
     </div>
   </div>
 
-
-
 <!-- Row4 -->
 <div class="bg-gray-800 text-white p-1 text-base flex flex-col growth-drive-background h-full lg:h-96">
     <div class="container mx-auto grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3">
@@ -80,7 +70,7 @@
 </template>
 
 <script setup lang="ts">
-
+import OurAffiliate from "@/components/our-affiliation.vue"
 </script>
 
 <style scoped>
